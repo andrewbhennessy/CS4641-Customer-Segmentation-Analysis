@@ -23,6 +23,9 @@ Classify customer population into some number of specific groups (clusters). Com
 
 DBScan is a performative method that can categorize customers based on their spending habits and interests. However, the method is very sensitive to the two parameters: epsilon and minimum number of points. Different values for parameters will partition customers into different clusters, and choosing impractical parameter values lead to severe impact on customers’ experiences. Therefore, deciding the ideal values for each parameter using different analysis such as the elbow effect will be crucial. Another possible difficulty is partitioning a dataset with similar densities. If the dataset contains many groups of customers with a similar size of density, DBScan may struggle separating them. Despite these challenges, DBScan is still a phenomenal method for categorizing customers over other clustering methods such as K-means. Density based clustering is capable of handling outliers and does not require to input the number of clusters. Finding the ideal number of clusters will be extremely hard since there may be tons of people who do not share similar spending patterns and interests in the given dataset. In addition, DBScan is competent in connecting nearby clusters using density reachability and connectivity nature so each customer will not be fully restricted to its own group. Applying this method to partition customers will provide a tremendous benefit to a company and the customers will be able to not only enjoy within their interests but also explore further by being introduced with new topics that other customers with similar interests like(Sekhar & Prasanna n.pag).
 
+### Project Proposal Video
+
+[Project Proposal Video](https://youtu.be/k_Ku24VRbnc)
 
 ### References
 
