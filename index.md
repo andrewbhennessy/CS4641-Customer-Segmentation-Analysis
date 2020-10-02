@@ -26,4 +26,4 @@ DBScan is a performative method that can categorize customers based on their spe
 
 ### References
 
-Modukuru, Pranay. “Customer Segmentation and Acquisition Using Machine Learning.” Medium, Towards Data Science, 19 Apr. 2020, towardsdatascience.com/customer-segmentation-and-acquisition-using-machine-learning-a219ce0ec139. 
+* Modukuru, Pranay. “Customer Segmentation and Acquisition Using Machine Learning.” Medium, Towards Data Science, 19 Apr. 2020, [towardsdatascience.com/customer-segmentation-and-acquisition-using-machine-learning-a219ce0ec139.](towardsdatascience.com/customer-segmentation-and-acquisition-using-machine-learning-a219ce0ec139.) 
