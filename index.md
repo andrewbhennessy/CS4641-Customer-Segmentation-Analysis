@@ -26,6 +26,8 @@ DBScan is a performative method that can categorize customers based on their spe
 
 ### References
 
-1. Modukuru, Pranay. “Customer Segmentation and Acquisition Using Machine Learning.” Medium, Towards Data Science, 19 Apr. 2020, [towardsdatascience.com/customer-segmentation-and-acquisition-using-machine-learning-a219ce0ec139.](towardsdatascience.com/customer-segmentation-and-acquisition-using-machine-learning-a219ce0ec139.) 
-2. Hossain, Shahadat. “Customer Segmentation Using Centroid Based and Density Based Clustering Algorithms.” Customer Segmentation Using Centroid Based and Density Based Clustering Algorithms - IEEE Conference Publication, 1 Feb. 2018, [ieeexplore.ieee.org/document/8275249.](ieeexplore.ieee.org/document/8275249.)
+1. Hossain, Shahadat. “Customer Segmentation Using Centroid Based and Density Based Clustering Algorithms.” Customer Segmentation Using Centroid Based and Density Based Clustering Algorithms - IEEE Conference Publication, 1 Feb. 2018, [ieeexplore.ieee.org/document/8275249.](ieeexplore.ieee.org/document/8275249.)
+
+2. Modukuru, Pranay. “Customer Segmentation and Acquisition Using Machine Learning.” Medium, Towards Data Science, 19 Apr. 2020, [towardsdatascience.com/customer-segmentation-and-acquisition-using-machine-learning-a219ce0ec139.](towardsdatascience.com/customer-segmentation-and-acquisition-using-machine-learning-a219ce0ec139.) 
+
 3. Sekhar, Babu B, and Prasanna P Lakshmi. “Customer Data Clustering Using Density Based Algorithm.” Research Gate, International Journal of Engineering &amp; Technology, May 2018, [www.researchgate.net/publication/325881992_Customer_Data_Clustering_using_Density_based_algorithm.](www.researchgate.net/publication/325881992_Customer_Data_Clustering_using_Density_based_algorithm.)
