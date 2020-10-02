@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## CS4641 Customer Data Segmentation Analysis Project
 
-You can use the [editor on GitHub](https://github.com/leveredblackout/CS4641-Customer-Segmentation-Analysis/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Introduction:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The COVID-19 pandemic has greatly affected the way all companies advertise for their businesses. Now more than ever, online presence and advertising are necessary to attract customers. While each customer is unique, a similar group of customers can be targeted in an advertisement. This is almost always more successful than making a generic advertisement aimed at the entire population. Advertisements aimed at certain subsets can save money and increase company traffic.
 
-### Markdown
+### Problem Definition:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Our project will use customer spending datasets to group customers together, allowing advertising to become specialized to each group. With this, companies can target these groups and make advertisements specifically aimed at each of them. This will improve the success rate of advertisements and bring in more revenue from customers.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Methods:
 
-- Bulleted
-- List
+We will be using DBScan to specify our groups. DBScan is defined as density based spatial clustering of applications with noise. Points with lower density will be treated as noise or outliers. Core points will represent the customers that a targeted advertisement is most likely to attract, border points will represent customers who may have some interest in a targeted advertisement aimed at their group, and outliers will have minimal to no interest in any targeted advertisement. Because DBScan is very sensitive to parameters, we will need to perform extensive testing to find the most optimal combination of epsilon value and number of minimum points
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+### Potential Results:
 
-[Link](url) and ![Image](src)
-```
+Classify customer population into some number of specific groups (clusters). Companies can then create advertisements aiming towards attracting the different categories of customers. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Discussion
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/leveredblackout/CS4641-Customer-Segmentation-Analysis/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+DBScan is a performative method that can categorize customers based on their spending habits and interests. However, the method is very sensitive to the two parameters: epsilon and minimum number of points. Different values for parameters will partition customers into different clusters, and choosing impractical parameter values lead to severe impact on customers’ experiences. Therefore, deciding the ideal values for each parameter using different analysis such as the elbow effect will be crucial. Another possible difficulty is partitioning a dataset with similar densities. If the dataset contains many groups of customers with a similar size of density, DBScan may struggle separating them. Despite these challenges, DBScan is still a phenomenal method for categorizing customers over other clustering methods such as K-means. Density based clustering is capable of handling outliers and does not require to input the number of clusters. Finding the ideal number of clusters will be extremely hard since there may be tons of people who do not share similar spending patterns and interests in the given dataset. In addition, DBScan is competent in connecting nearby clusters using density reachability and connectivity nature so each customer will not be fully restricted to its own group. Applying this method to partition customers will provide a tremendous benefit to a company and the customers will be able to not only enjoy within their interests but also explore further by being introduced with new topics that other customers with similar interests like.
