@@ -1,5 +1,11 @@
 ## CS4641 Customer Data Segmentation Analysis Project
 
+### MID-PROJECT REPORT
+Please See in our Colab Here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andrewbhennessy/CS4641-Customer-Segmentation-Analysis/blob/main/Mid_Project_Report.ipynb)
+
+The Timestamped document available in our main branch is here: [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://github.com/andrewbhennessy/CS4641-Customer-Segmentation-Analysis/blob/main/Mid_Project_Report.ipynb)
+
+
 ### Introduction:
 
 The COVID-19 pandemic has greatly affected the way all companies advertise for their businesses. Now more than ever, online presence and advertising are necessary to attract customers. While each customer is unique, a similar group of customers can be targeted in an advertisement. This is almost always more successful than making a generic advertisement aimed at the entire population. Advertisements aimed at certain subsets can save money and increase company traffic.
